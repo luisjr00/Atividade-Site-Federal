@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Eventos - IFSP - Pirituba - DWBA4</title>
+    <link rel="stylesheet" href="css\style.css"/>
+    <link href="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/favicon.ico" rel="icon" type="imagem/png"/>
+  </head>
+  <body>      
+        <header>        
+        <il id="cabeçalho"></il>
+        <div id="cabecalho">
+        <a href="index.html">HOME</a><a href="eventos.html">EVENTOS</a><a href="contato.html">CONTATO</a><il class="dropdown"><a href="#" class="dropbtn">CURSOS</a>
+				<div class="dropdown-content">
+					<a href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+					<a href="#">Engenharia de Produção</a>
+          <a href="#">Gestão em Tecnologia da Informação</a>
+          <a href="#">Letras</a>
+          <a href="#">Gestão Pública</a>
+				</div></il><a href="entrar.html">ENTRAR</a><il id="about"><a href="sobre.html">SOBRE</a></il>
+        </div>
+        </header>
+        <div id="logo">
+        <img src='https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/Logo.jpg'/>
+        </div>
+        <br/>
+        <h1><b>Inscreva-se</b></h1>
+        <form method="POST">
+        <fieldset><div id="eventos_choose">
+          <label for="seleciona_evento">Evento</label></br>
+            <select name="assunto" id="seleciona_evento" value="Evento"/>
+            <option value>&nbsp;&nbsp;&nbsp;&nbsp;-- Selecione --</option>
+            <option value="VSA">&nbsp;&nbsp;&nbsp;&nbsp;Voe sem Asas</option>
+            <option value="FJ">&nbsp;&nbsp;&nbsp;&nbsp;Festa Junina</option>
+            <option value="SDT">&nbsp;&nbsp;&nbsp;&nbsp;Semana de Tecnologia</option></div>
+         </select>
+        </fieldset>
+        <fieldset>
+          <legend>Informações de Acesso</legend></br>
+          <label for="usuario_evento">Usuário:</label>
+          <div id="eventos_grey_input">
+          <input type="text" name="user" id="usuario_evento" required/></br></br></div>
+
+          <label for="senha_evento">Senha:&emsp;</label>
+          <input type="password" name="password" id="senha_evento" required/></br></br>
+
+          <label for="confirma_senha_evento">Confirme a Senha:</label>
+          <input type="password" name="conf_password" id="confirma_senha_evento" required/></br></br>
+
+        </fieldset>
+        <fieldset>
+          <legend>Informações Pessoais</legend></br>
+          <label for="nome_completo_evento">Nome Completo:</label>
+          <div id="eventos_grey_input">
+          <input type="text" name="complet_name_event" id="nome_completo_evento" required/></br></br>
+
+          <label for="email_evento">E-mail:</label>
+          <input type="email" name="email_event" id="email_evento" required/></br></br>
+
+          <label for="celular_evento">Celular:</label>
+          <input type="text" name="cell_event" id="celular_evento" placeholder="     (11) 91234-5678"/></br></br></div>
+          <fieldset>
+            <legend>Sexo</legend>
+            <label for="genero_masc">Masculino
+            <input id="genero_masc" type="radio" name="sexo" value="M"/>
+            </label>
+            <label for="genero_fem">Feminino
+            <input id="genero_fem" type="radio" name="sexo" value="F"/>
+            </label>
+          </fieldset></br>
+          <label for="data_nasc">Data de Nascimento:</label>
+          <input type="date" name="date_nasc" id="data_nasc"></br></br>
+
+          <label for="color">Cor Favorita:</label>
+          <input type="color" name="all_color" id="color"></br></br>
+
+          <label for="perfil_github">Perfil no Github:</label><div id="eventos_grey_input">
+          <input type="text" name="profile_github" id="perfil_github"></br></br></div>
+
+        </fieldset>
+        <div id="eventos_green_button">
+          <button type="submit">Inscrever-se</button>
+        </div>
+        <div id="eventos_green_button"> 
+          <button type="reset">Limpar</button>
+        </div>
+        </form>
+        <p></br></br>
+        <a href='https://facebook.com/ifsppirituba'>
+          <img src='https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/facebook.png' width="41px" height="43px" title="IFSP Facebook" alt="IFSP Facebook"/></a>
+          </p>
+      <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100</p></br></br></br>
+  </body>
+</html>

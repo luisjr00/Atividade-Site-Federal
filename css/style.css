@@ -1,0 +1,262 @@
+body {
+  background: rgb(255, 255, 255);
+}
+
+div#cabecalho{
+  margin-left: 8px;
+  margin-top: 16px;
+  margin-right: 8px;
+  color: white;
+  background-color: #333333;
+  text-align: left;
+  line-height: 47px;
+}
+
+div#cabecalho il#about {
+	float:right
+}
+
+div#cabecalho a:visited, div#cabecalho a:link{
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+div#cabecalho a:hover {
+  padding: 14.5px 16px;
+  background-color: #ff0000;
+}
+
+div#logo {
+  margin-left: 8px;
+  margin-right: 8px;
+  background-color: #008000;
+  text-align: left;
+  line-height: 19px;
+}
+
+div#cabecalho il.dropdown {
+  display: inline-block;
+}
+
+div#cabecalho .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+div#cabecalho a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+div#cabecalho .dropdown-content a {
+  color: black;
+  padding: 0.1pt 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+div#cabecalho .dropdown-content a:hover {background-color: #f1f1f1;}
+
+div#cabecalho .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  font-size: 12px;
+  text-align: center;
+}
+
+div#center h2{
+  margin-top: 28px;
+  text-align: center;
+}
+
+div#contato_grey_input input, div#contato_grey_input textarea, div#contato_bloco input{
+
+  border-radius: 3px 3px 3px 3px;
+  line-height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 1455px;
+
+  border-top-color:rgb(190, 190, 190); 
+  border-top-style: solid;
+  border-top-width: 0.5pt; 
+
+  border-right-color:rgb(190, 190, 190);
+  border-right-style:solid;
+  border-right-width: 0.5pt;
+
+  border-bottom-color:rgb(190, 190, 190);
+  border-bottom-style:solid;
+  border-bottom-width: 0.5pt;
+
+  border-left-color:rgb(190, 190, 190);
+  border-left-style:solid;
+  border-left-width: 0.5pt;
+}
+
+div#contato_choose select{
+
+  border-radius: 3px 3px 3px 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 1460px;
+  height: 45px;
+
+  border-top-color:rgb(190, 190, 190); 
+  border-top-style: solid;
+  border-top-width: 0.5pt; 
+
+  border-right-color:rgb(190, 190, 190);
+  border-right-style:solid;
+  border-right-width: 0.5pt;
+
+  border-bottom-color:rgb(190, 190, 190);
+  border-bottom-style:solid;
+  border-bottom-width: 0.5pt;
+
+  border-left-color:rgb(190, 190, 190);
+  border-left-style:solid;
+  border-left-width: 0.5pt;
+}
+
+div#contato_bloco input, div#contato_bloco label{
+
+  width: 20px;
+}
+
+div#contato_green_button button{
+
+  color: white;
+
+  border-top-color: #4CAF50; 
+  border-top-style: solid;
+  border-top-width: 0.5pt; 
+
+  border-right-color:#4CAF50;
+  border-right-style:solid;
+  border-right-width: 0.5pt;
+
+  border-bottom-color:#4CAF50;
+  border-bottom-style:solid;
+  border-bottom-width: 0.5pt;
+
+  border-left-color: #4CAF50;
+  border-left-style:solid;
+  border-left-width: 0.5pt;
+  
+  border-radius: 5px 5px 5px 5px;
+
+  margin-left: 40px;
+  margin-top: 18px;
+  background: #4CAF50;
+  width: 1460px;
+
+  line-height: 50px 
+}
+
+div#contato_green_button button:hover{
+
+  cursor:pointer;
+  background-color: rgb(57, 133, 60);
+}
+
+div#eventos_choose select{
+
+  border-radius: 3px 3px 3px 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 1460px;
+  height: 45px;
+
+  border-top-color:rgb(190, 190, 190); 
+  border-top-style: solid;
+  border-top-width: 0.5pt; 
+
+  border-right-color:rgb(190, 190, 190);
+  border-right-style:solid;
+  border-right-width: 0.5pt;
+
+  border-bottom-color:rgb(190, 190, 190);
+  border-bottom-style:solid;
+  border-bottom-width: 0.5pt;
+
+  border-left-color:rgb(190, 190, 190);
+  border-left-style:solid;
+  border-left-width: 0.5pt;
+}
+
+div#eventos_grey_input input{
+
+  border-radius: 3px 3px 3px 3px;
+  line-height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 1455px;
+
+  border-top-color:rgb(190, 190, 190); 
+  border-top-style: solid;
+  border-top-width: 0.5pt; 
+
+  border-right-color:rgb(190, 190, 190);
+  border-right-style:solid;
+  border-right-width: 0.5pt;
+
+  border-bottom-color:rgb(190, 190, 190);
+  border-bottom-style:solid;
+  border-bottom-width: 0.5pt;
+
+  border-left-color:rgb(190, 190, 190);
+  border-left-style:solid;
+  border-left-width: 0.5pt;
+}
+
+div#eventos_green_button button{
+
+  color: white;
+
+  border-top-color: #4CAF50; 
+  border-top-style: solid;
+  border-top-width: 0.5pt; 
+
+  border-right-color:#4CAF50;
+  border-right-style:solid;
+  border-right-width: 0.5pt;
+
+  border-bottom-color:#4CAF50;
+  border-bottom-style:solid;
+  border-bottom-width: 0.5pt;
+
+  border-left-color: #4CAF50;
+  border-left-style:solid;
+  border-left-width: 0.5pt;
+  
+  border-radius: 5px 5px 5px 5px;
+
+  margin-left: 2px;
+  margin-top: 18px;
+  background: #4CAF50;
+  width: 1498px;
+
+  line-height: 40px 
+}
+
+div#eventos_green_button button:hover{
+
+  cursor:pointer;
+  background-color: rgb(57, 133, 60);
+}
